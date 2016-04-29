@@ -14,7 +14,7 @@ import com.ebookfrenzy.database.provider.MyContentProvider;
  */
 public class MyDBHandler extends SQLiteOpenHelper{
 
-
+    int a;
     //TEST
     private ContentResolver myCR;
 
