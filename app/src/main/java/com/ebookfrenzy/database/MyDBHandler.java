@@ -1,21 +1,21 @@
 package com.ebookfrenzy.database;
 
-import com.ebookfrenzy.database.provider.MyContentProvider;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import com.ebookfrenzy.database.provider.MyContentProvider;
 
 /**
  * Created by csh on 2016-03-31.
  */
 public class MyDBHandler extends SQLiteOpenHelper{
 
+
+    //TEST
     private ContentResolver myCR;
 
     private String p_name;
